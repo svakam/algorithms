@@ -18,7 +18,7 @@ namespace Search
                 if (guess == num)
                 {
                     System.Console.WriteLine($"Guessed correctly: {guess}. Number of guesses: {numOfGuesses}");
-                    return guess;
+                    return mid;
                 }
                 numOfGuesses++;
                 if (guess > num)

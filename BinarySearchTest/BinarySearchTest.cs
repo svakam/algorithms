@@ -15,11 +15,11 @@ namespace BinarySearchTest
         {
             BinarySearch b = new BinarySearch();
             Assert.AreEqual(5, b.Run(evenList, 5));
-            Assert.AreEqual(0, b.Run(evenList, 0));
-            Assert.AreEqual(21, b.Run(evenList, 21));
-            Assert.AreEqual(3, b.Run(oddList, 3));
-            Assert.AreEqual(-11, b.Run(oddList, -11));
-            Assert.AreEqual(3, b.Run(one, 3));
+            Assert.AreEqual(3, b.Run(evenList, 0));
+            Assert.AreEqual(9, b.Run(evenList, 21));
+            Assert.AreEqual(5, b.Run(oddList, 3));
+            Assert.AreEqual(0, b.Run(oddList, -11));
+            Assert.AreEqual(0, b.Run(one, 3));
         }
 
         [TestMethod]
