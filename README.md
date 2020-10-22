@@ -1,4 +1,1 @@
 # Algorithms
-
-Source: Grokking
-
